@@ -1,5 +1,3 @@
-
-
 //1.array of JavaScript objects to hold the data for the quotes.
 var quotes = [
   {
@@ -51,16 +49,16 @@ var quotes = [
     tag: "Inspirational"
   },
   {
-      quote: "Not all those who wander are lost.",
-      source: "J.R.R. Tolkien",
-      citation: "The Fellowship of the Ring",
-      year: 1954,
-      tag: "Reflection"
+    quote: "Not all those who wander are lost.",
+    source: "J.R.R. Tolkien",
+    citation: "The Fellowship of the Ring",
+    year: 1954,
+    tag: "Reflection"
   }
 ];
 
 //2.Create a function named getRandomQuote and returns randomly quote.
-function getRandomQuote( ) {
+function getRandomQuote() {
   var randomNumber =  Math.floor( Math.random() * quotes.length);
   randomQuote = quotes[randomNumber];
   return randomQuote;
